@@ -10,12 +10,6 @@ body {
       rgba(86, 54, 152, 1) 86%,
       rgba(58, 36, 103, 1) 94%
   );
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: Arial, sans-serif;
 }
 
@@ -100,8 +94,9 @@ nav ul li a:hover {
   padding: 3px 6px;
   font-size: 0.8rem;
 }
-
-
+.fw-extra-bold {
+  font-weight: 900;
+}
 /* General Styles */
 * {
   margin: 0;
